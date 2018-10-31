@@ -1,0 +1,218 @@
+<!doctype>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Формы</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>
+                Коротко о себе
+            </legend>
+            <ul>
+                <li>
+                    <label>
+                        Имя:
+                        <input type="text" name="name">
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        Фамилия:
+                        <input type="text">
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        Пол:
+                    </label>
+                    <label>
+                        <input type="radio" name="pol">
+                        Мужской
+                    </label>
+                    <label>
+                        <input type="radio" name="pol">
+                        Женский
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        Возраст
+                        <input type="number">
+                    </label>
+                </li>
+            </ul>
+        </fieldset>
+        <fieldset>
+            <legend>
+                Подробнее о себе
+            </legend>
+            <label>
+                <input type="radio" name="pol1">
+                Молодой человек
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="pol1">
+                Девушка
+            </label>
+            <ul>
+                <li>
+                    <label>
+                        Дата рождения
+                        <input type="text" name="date" class="info">
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        Семейное положение
+                        <input type="text" class="info">
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        Социальный статус
+                        <input type="text" name="text" class="info">
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        Местожительства
+                        <input type="text" name="text" class="info">
+                    </label>
+                </li>
+            </ul>
+                <ul>
+                    <h4>
+                        Что Вы обычно делаете на выходных:
+                    </h4>
+                    <li>
+                        <label>
+                            Сплю
+                            <input type="checkbox" class="info">
+                        </label>
+                    </li>
+                    <li>
+                        <label>
+                            Гуляю с друзьями
+                            <input type="checkbox" class="info">
+                        </label>
+                    </li>
+                    <li>
+                        <label>
+                            Хожу на рыбалку
+                            <input type="checkbox" class="info">
+                        </label>
+                    </li>
+                    <li>
+                        <label>
+                            Играю в игры
+                            <input type="checkbox" class="info">
+                        </label>
+                    </li>
+                </ul>
+                <p>
+                    Рассказать о формах в книге, посвященной HTML
+                </p>
+                <ul>
+                        Сколько книг Вы прочитали за свою жизнь
+                    <li>
+                        <label>
+                            <input type="radio" name="number">
+                            0-10
+                        </label>
+                    </li>
+                    <li>
+                        <label>
+                            <input type="radio" name="number">
+                            11-20
+                        </label>
+                    </li>
+                    <li>
+                        <label>
+                            <input type="radio" name="number">
+                            21-50
+                        </label>
+                    </li>
+                    <li>
+                        <label>
+                            <input type="radio" name="number">
+                            50+
+                        </label>
+                    </li>
+                </ul>
+                <p>
+                    Ваши комментарии
+                </p>
+                <textarea rows="3">
+                </textarea>
+            <br>
+            <select>
+                <option>Первая позиция</option>
+                <option>Вторая позиция</option>
+                <option>Третья позицияы</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>
+                И в заключении
+            </legend>
+            <textarea rows="1">
+                Это поле было введено до вас
+            </textarea>
+            <br>
+            <label>
+                E-mail
+                <br>
+                <input type="email" name="uzer-email">
+            </label>
+            <ul>
+                Хотите подписаться на самую модную рассылку спама
+                Выбирите категории
+                <li>
+                    <label>
+                        <input type="checkbox">
+                        Оборудование
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="checkbox">
+                        Как приготовить обеды
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="checkbox">
+                        Заработай миллион за 2 дня!
+                    </label>
+                </li>
+            </ul>
+            <ul>
+                Насколько сложная задача
+                <li>
+                    <label>
+                        <input type="radio" name="zadacha">
+                        Совсем нет
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="radio" name="zadacha">
+                        Так себе
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="radio" name="zadacha">
+                        Ели справились
+                    </label>
+                </li>
+            </ul>
+        </fieldset>
+      <input type="submit" value="отправить">
+    </form>
+</body>
+</html>

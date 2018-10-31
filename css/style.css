@@ -1,0 +1,12 @@
+table{
+  margin: 0 auto 50px;
+}
+ul{
+  list-style-type: none;
+}
+li{
+  margin-bottom: 10px;
+}
+.info{
+  float: left;
+}
